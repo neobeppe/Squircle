@@ -20,7 +20,7 @@ extension UIView {
         self.layer.mask = maskLayer
     }
     
-    private func squirclePath(with radius: CGFloat?) -> UIBezierPath {
+    internal func squirclePath(with radius: CGFloat?) -> UIBezierPath {
         
         var squircleSide = min(bounds.width, bounds.height)
         
