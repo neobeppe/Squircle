@@ -7,12 +7,17 @@
 //
 
 import UIKit
+import Squircle
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var squircleView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        squircleView.squircle(with: 10)
+        
     }
 
     override func didReceiveMemoryWarning() {

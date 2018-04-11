@@ -1,0 +1,6 @@
+framework module Squircle {
+  umbrella header "Squircle-umbrella.h"
+
+  export *
+  module * { export * }
+}
