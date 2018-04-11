@@ -26,8 +26,7 @@ extension UIView {
         
         if let radius = radius, radius * 4.7 < squircleSide {
             squircleSide = radius * 4.7
-        }
-        else {
+        } else {
             print("invalid radius: radious should be less then 4.7 times view minor side")
         }
         
@@ -66,4 +65,3 @@ extension UIView {
         return path
     }
 }
-
