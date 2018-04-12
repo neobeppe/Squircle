@@ -22,7 +22,7 @@ extension UIView {
 extension CALayer {
     
     /**
-     Apply a squircle mask corner radius.
+     Apply a squircle mask corner radius to a CALayer.
      - parameters:
      - radius: Radius value to apply, if missing or greater than 4.7 times layer's smaller side, layer's smaller side will be used instead.
      */
