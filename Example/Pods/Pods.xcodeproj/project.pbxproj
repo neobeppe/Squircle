@@ -15,7 +15,7 @@
 		780F056BE0CBF2C4DB7106923B6CD7F9 /* Pods-Squircle_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56BCAB4DE262695B1C52694E77A99D87 /* Pods-Squircle_Example-dummy.m */; };
 		9BC9665E81FAF7B4119D6F811E829CD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		BB945111A3C2BF4832527F8ACEA17DD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		D8E52E4D0F949F9984F9B1229D76E1EB /* UIView+Squircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F280A705524396B20D8B79A3B0BEBAB8 /* UIView+Squircle.swift */; };
+		D8E52E4D0F949F9984F9B1229D76E1EB /* Squircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F280A705524396B20D8B79A3B0BEBAB8 /* Squircle.swift */; };
 		DD8E69C892361CBB92CB589E51BCCBE3 /* Pods-Squircle_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 82241E670CC32E938F2CB3D1E567FA64 /* Pods-Squircle_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA15131F21AE6B6D34B4FFCB7C18E84F /* Squircle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AE5FBDA6A45509FDB8DC655802ABD05 /* Squircle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -66,7 +66,7 @@
 		DA3CE89200DDB597A1919111F5C89981 /* Squircle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Squircle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEEE842A8BFE0EC3FF9AF950E4A34512 /* Squircle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Squircle.modulemap; sourceTree = "<group>"; };
 		E0511058420C063CC976CEEC2D887F17 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		F280A705524396B20D8B79A3B0BEBAB8 /* UIView+Squircle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Squircle.swift"; path = "Squircle/UIView+Squircle.swift"; sourceTree = "<group>"; };
+		F280A705524396B20D8B79A3B0BEBAB8 /* Squircle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Squircle.swift; path = Squircle/Squircle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,7 +206,7 @@
 		A251158E07CD6747527EDC29BBDAE616 /* Squircle */ = {
 			isa = PBXGroup;
 			children = (
-				F280A705524396B20D8B79A3B0BEBAB8 /* UIView+Squircle.swift */,
+				F280A705524396B20D8B79A3B0BEBAB8 /* Squircle.swift */,
 				4FE541195C59C082CB2A43D4AB8459D8 /* Pod */,
 				19CB2C9156A494C7F832767C36F959ED /* Support Files */,
 			);
@@ -348,7 +348,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				23CDD437BF50DEF14A9805D7E3F894A9 /* Squircle-dummy.m in Sources */,
-				D8E52E4D0F949F9984F9B1229D76E1EB /* UIView+Squircle.swift in Sources */,
+				D8E52E4D0F949F9984F9B1229D76E1EB /* Squircle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
