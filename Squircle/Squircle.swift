@@ -27,7 +27,9 @@ extension CALayer {
      - radius: Radius value to apply, if missing or greater than 4.7 times layer's smaller side, layer's smaller side will be used instead.
      */
     public func applySquircle(with radius: CGFloat? = nil) {
-        self.mask = squirclePath(with: radius)
+        let maskLayer = CAShapeLayer()
+        maskLayer.path = squirclePath(with: radius).cgPath
+        self.mask = maskLayer
     }
     
     internal func squirclePath(with radius: CGFloat?) -> UIBezierPath {
