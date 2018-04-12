@@ -7,20 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1E1F45D640604D3A31D70615556785A5 /* Pods-Squircle_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D06DBEAEA148A5316120E8EA8E65E0AD /* Pods-Squircle_Tests-dummy.m */; };
-		23CDD437BF50DEF14A9805D7E3F894A9 /* Squircle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9C9C5351357EC67B64CB9DD1026445 /* Squircle-dummy.m */; };
+		2483BBCC307CE2BFB6CDFFB22B944847 /* Squircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A60A007DBAE51B65E8E1F56F458D6B /* Squircle.swift */; };
+		354D3A91A04C1E70FA5932CA0F65C2A7 /* Pods-Squircle_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FBC91BA7D72FD2A223A64524BE6B22A2 /* Pods-Squircle_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4709ADF27DA1C3F4009142AC1B0E38CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		57DA4A0C16A173E3999F4DA33A8FBCB1 /* Pods-Squircle_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7591D0FBAF6D317CF7895FA460F383B2 /* Pods-Squircle_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57DA4A0C16A173E3999F4DA33A8FBCB1 /* Pods-Squircle_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 59382E3B211B15CCD55FC6D904F18EA5 /* Pods-Squircle_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5B1D2D0AC52CDA6A7B93B075BF662B5C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
-		780F056BE0CBF2C4DB7106923B6CD7F9 /* Pods-Squircle_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56BCAB4DE262695B1C52694E77A99D87 /* Pods-Squircle_Example-dummy.m */; };
+		780F056BE0CBF2C4DB7106923B6CD7F9 /* Pods-Squircle_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B2F34BB3CAC9451D513557358E0B11 /* Pods-Squircle_Example-dummy.m */; };
+		86DAF6DB6C9EB2E2ADB60AAE6369EFB3 /* Pods-Squircle_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC1EE47D031581895E7772D4D47C24A /* Pods-Squircle_Tests-dummy.m */; };
 		9BC9665E81FAF7B4119D6F811E829CD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		BB945111A3C2BF4832527F8ACEA17DD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		D8E52E4D0F949F9984F9B1229D76E1EB /* Squircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F280A705524396B20D8B79A3B0BEBAB8 /* Squircle.swift */; };
-		DD8E69C892361CBB92CB589E51BCCBE3 /* Pods-Squircle_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 82241E670CC32E938F2CB3D1E567FA64 /* Pods-Squircle_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EA15131F21AE6B6D34B4FFCB7C18E84F /* Squircle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AE5FBDA6A45509FDB8DC655802ABD05 /* Squircle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B067883F582B124D5CE8D64D6DE38DC4 /* Squircle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBA086ED8C4D1AF1644163F4BE993F3 /* Squircle-dummy.m */; };
+		B6F0A1E99B8A638AE7D43B8CD1A16C5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		EA15131F21AE6B6D34B4FFCB7C18E84F /* Squircle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AFCE1F64AAC82E974B09EC3161E7EA0E /* Squircle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		5532263A5C685E1C97DEEE63BFC949A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B0CD1CD35039EA994445BB2A28E57EC;
+			remoteInfo = "Pods-Squircle_Example";
+		};
 		9426797543307548B21A861A924AFCCE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -31,42 +38,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		13B81F835F7ACB3F00D8D22EEC11E913 /* Pods_Squircle_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Squircle_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		317F166545DEE2DBFAB9AEB51BDDD726 /* Pods-Squircle_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Squircle_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		348EE1F5233C79E06B5DC4DEB3030CC6 /* Pods-Squircle_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Squircle_Tests.modulemap"; sourceTree = "<group>"; };
-		407BDD9AB5A28EBF817F34662A2FBC7F /* Pods-Squircle_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Squircle_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		4AE5FBDA6A45509FDB8DC655802ABD05 /* Squircle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Squircle-umbrella.h"; sourceTree = "<group>"; };
-		538B348A8F029CE834392B97298EA7E1 /* Squircle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Squircle-prefix.pch"; sourceTree = "<group>"; };
-		53FA5F953960806E89C4486E820FDA21 /* Squircle.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Squircle.xcconfig; sourceTree = "<group>"; };
-		56BCAB4DE262695B1C52694E77A99D87 /* Pods-Squircle_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Squircle_Example-dummy.m"; sourceTree = "<group>"; };
-		621F564864E66B9554477C003C3F3F17 /* Pods-Squircle_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Squircle_Example-frameworks.sh"; sourceTree = "<group>"; };
-		698711EFD9F7B6A188FB2C59BFBA286A /* Squircle.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = Squircle.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		6F73F629EE152C5C99B4BEA59B04CD99 /* Pods-Squircle_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Squircle_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		737E0CE88233B9895131D6ED6E976899 /* Pods-Squircle_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Squircle_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		750EACF5CB67E1DC9953D5099CE02816 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7591D0FBAF6D317CF7895FA460F383B2 /* Pods-Squircle_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Squircle_Example-umbrella.h"; sourceTree = "<group>"; };
-		7A9C9C5351357EC67B64CB9DD1026445 /* Squircle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Squircle-dummy.m"; sourceTree = "<group>"; };
-		7EA04267CD7CE6AAAE1B7CCD00DB03E8 /* Pods-Squircle_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Squircle_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		80FDBF49B3A8534265C6EEFB8666D633 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		82241E670CC32E938F2CB3D1E567FA64 /* Pods-Squircle_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Squircle_Tests-umbrella.h"; sourceTree = "<group>"; };
-		8A76E182465CB535DAC6A5A06C1FA536 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		8B3A106922668C6AEF0EDB98AD7CE642 /* Pods-Squircle_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Squircle_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9292E839BB20F17243EA8D73D89AA0F1 /* Pods-Squircle_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Squircle_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		13B81F835F7ACB3F00D8D22EEC11E913 /* Pods_Squircle_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Squircle_Example.framework; path = "Pods-Squircle_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A82A5F0A01BB5E0B5C0228442E01BC6 /* Pods-Squircle_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Squircle_Tests.modulemap"; sourceTree = "<group>"; };
+		1CBA086ED8C4D1AF1644163F4BE993F3 /* Squircle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Squircle-dummy.m"; sourceTree = "<group>"; };
+		1D6CAE1DD86A1CBF0041AA0BBDE2CF3A /* Pods-Squircle_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Squircle_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1FDB5F0B7AF11113BE8E816E3C21C0C2 /* Squircle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Squircle-prefix.pch"; sourceTree = "<group>"; };
+		26161C6F68666ABC80FF1B92418E4CEF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27FDD0936492DF4C8E819C38273FFD31 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		35416DCFE3607E551FA6CBF71CAD40A8 /* Pods-Squircle_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Squircle_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3B763D6AC79E71B65AACB62AD5470365 /* Pods-Squircle_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Squircle_Tests-resources.sh"; sourceTree = "<group>"; };
+		48B930C2EEB574271D418C0E71C8B845 /* Pods-Squircle_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Squircle_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4E02330B3394DCB8787494EE9D27A4AF /* Pods-Squircle_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Squircle_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4FD151EE8D77057E8661028A47F07A5E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59382E3B211B15CCD55FC6D904F18EA5 /* Pods-Squircle_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Squircle_Example-umbrella.h"; sourceTree = "<group>"; };
+		59B364511A48430B020A176F8B8C2D83 /* Pods-Squircle_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Squircle_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5C179F249198F21E385CC6E4A1AB6490 /* Squircle.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Squircle.xcconfig; sourceTree = "<group>"; };
+		66E5E8780202013E64FA6D23F8AD82B5 /* Pods-Squircle_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Squircle_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		70E02BE60A63DAFD63B57C084379D605 /* Pods-Squircle_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Squircle_Example-resources.sh"; sourceTree = "<group>"; };
+		77A60A007DBAE51B65E8E1F56F458D6B /* Squircle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Squircle.swift; path = Squircle/Squircle.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A070C1C4B5CFCC886571F003F61AB84D /* Pods-Squircle_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Squircle_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AE5E1047CDE0852EABE4E0A5BDEE586E /* Squircle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Squircle.modulemap; sourceTree = "<group>"; };
+		AFCE1F64AAC82E974B09EC3161E7EA0E /* Squircle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Squircle-umbrella.h"; sourceTree = "<group>"; };
 		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		B8098499A2C4D43923216896090C3E6B /* Pods_Squircle_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Squircle_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC3130FF7CE2BDCDD91313F1EEEEE29B /* Pods-Squircle_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Squircle_Tests-resources.sh"; sourceTree = "<group>"; };
-		BCDDABF2713FB5AA842D875149FD96FB /* Pods-Squircle_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Squircle_Example.release.xcconfig"; sourceTree = "<group>"; };
-		BD11F55A228316DA64BA10C2255956CF /* Pods-Squircle_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Squircle_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		C2F7C3BEEA9620135911AA34A3C26C21 /* Pods-Squircle_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Squircle_Example.modulemap"; sourceTree = "<group>"; };
-		C87DC93C2C9672F639339C49A2B2D9BC /* Pods-Squircle_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Squircle_Example-resources.sh"; sourceTree = "<group>"; };
-		D06DBEAEA148A5316120E8EA8E65E0AD /* Pods-Squircle_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Squircle_Tests-dummy.m"; sourceTree = "<group>"; };
-		D6D63683EA83DC0E93B0D3E123F933A5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8098499A2C4D43923216896090C3E6B /* Pods_Squircle_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Squircle_Tests.framework; path = "Pods-Squircle_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC154AE72052ECDE1CE639C36D63FFD8 /* Pods-Squircle_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Squircle_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C4ED5A650903E4C842E562DC43628280 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D12A024CB1C0A0E74F4CE1A8C9B16D46 /* Pods-Squircle_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Squircle_Example.modulemap"; sourceTree = "<group>"; };
+		D3AB14ABE2C188A837E24E5565F53BCB /* Pods-Squircle_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Squircle_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		DA3CE89200DDB597A1919111F5C89981 /* Squircle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Squircle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DEEE842A8BFE0EC3FF9AF950E4A34512 /* Squircle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Squircle.modulemap; sourceTree = "<group>"; };
-		E0511058420C063CC976CEEC2D887F17 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		F280A705524396B20D8B79A3B0BEBAB8 /* Squircle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Squircle.swift; path = Squircle/Squircle.swift; sourceTree = "<group>"; };
+		DA3CE89200DDB597A1919111F5C89981 /* Squircle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Squircle.framework; path = Squircle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB3AB1CC21476885622681DF8BFEF49C /* Pods-Squircle_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Squircle_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		DBC1EE47D031581895E7772D4D47C24A /* Pods-Squircle_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Squircle_Tests-dummy.m"; sourceTree = "<group>"; };
+		EF6F7289A14675963FD9282F74381FA4 /* Squircle.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = Squircle.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F8B2F34BB3CAC9451D513557358E0B11 /* Pods-Squircle_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Squircle_Example-dummy.m"; sourceTree = "<group>"; };
+		FB4937C11A80443DB9DF5B71C5FD4391 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		FBC91BA7D72FD2A223A64524BE6B22A2 /* Pods-Squircle_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Squircle_Tests-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +85,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9856CABDD5E27456418AA739FA4EADE1 /* Frameworks */ = {
+		457C189348063DF12F3DB133C75F9FEE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB945111A3C2BF4832527F8ACEA17DD4 /* Foundation.framework in Frameworks */,
+				B6F0A1E99B8A638AE7D43B8CD1A16C5F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,61 +105,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0093DDFBE94F1F8FE775090692DF8D95 /* Pods-Squircle_Tests */ = {
+		198C3D49E4C5FC41A0D4A6E3FBDA4E6F /* Squircle */ = {
 			isa = PBXGroup;
 			children = (
-				750EACF5CB67E1DC9953D5099CE02816 /* Info.plist */,
-				348EE1F5233C79E06B5DC4DEB3030CC6 /* Pods-Squircle_Tests.modulemap */,
-				317F166545DEE2DBFAB9AEB51BDDD726 /* Pods-Squircle_Tests-acknowledgements.markdown */,
-				407BDD9AB5A28EBF817F34662A2FBC7F /* Pods-Squircle_Tests-acknowledgements.plist */,
-				D06DBEAEA148A5316120E8EA8E65E0AD /* Pods-Squircle_Tests-dummy.m */,
-				BD11F55A228316DA64BA10C2255956CF /* Pods-Squircle_Tests-frameworks.sh */,
-				BC3130FF7CE2BDCDD91313F1EEEEE29B /* Pods-Squircle_Tests-resources.sh */,
-				82241E670CC32E938F2CB3D1E567FA64 /* Pods-Squircle_Tests-umbrella.h */,
-				8B3A106922668C6AEF0EDB98AD7CE642 /* Pods-Squircle_Tests.debug.xcconfig */,
-				7EA04267CD7CE6AAAE1B7CCD00DB03E8 /* Pods-Squircle_Tests.release.xcconfig */,
+				77A60A007DBAE51B65E8E1F56F458D6B /* Squircle.swift */,
+				86DB04A151A4866EC70F21229F53EC36 /* Pod */,
+				4F3B6B6D3B55C7A2C078068C20EF737D /* Support Files */,
 			);
-			name = "Pods-Squircle_Tests";
-			path = "Target Support Files/Pods-Squircle_Tests";
-			sourceTree = "<group>";
-		};
-		19CB2C9156A494C7F832767C36F959ED /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				80FDBF49B3A8534265C6EEFB8666D633 /* Info.plist */,
-				DEEE842A8BFE0EC3FF9AF950E4A34512 /* Squircle.modulemap */,
-				53FA5F953960806E89C4486E820FDA21 /* Squircle.xcconfig */,
-				7A9C9C5351357EC67B64CB9DD1026445 /* Squircle-dummy.m */,
-				538B348A8F029CE834392B97298EA7E1 /* Squircle-prefix.pch */,
-				4AE5FBDA6A45509FDB8DC655802ABD05 /* Squircle-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Squircle";
-			sourceTree = "<group>";
-		};
-		221330CE657312D29A9CCDE5DB7EC260 /* Pods-Squircle_Example */ = {
-			isa = PBXGroup;
-			children = (
-				D6D63683EA83DC0E93B0D3E123F933A5 /* Info.plist */,
-				C2F7C3BEEA9620135911AA34A3C26C21 /* Pods-Squircle_Example.modulemap */,
-				737E0CE88233B9895131D6ED6E976899 /* Pods-Squircle_Example-acknowledgements.markdown */,
-				6F73F629EE152C5C99B4BEA59B04CD99 /* Pods-Squircle_Example-acknowledgements.plist */,
-				56BCAB4DE262695B1C52694E77A99D87 /* Pods-Squircle_Example-dummy.m */,
-				621F564864E66B9554477C003C3F3F17 /* Pods-Squircle_Example-frameworks.sh */,
-				C87DC93C2C9672F639339C49A2B2D9BC /* Pods-Squircle_Example-resources.sh */,
-				7591D0FBAF6D317CF7895FA460F383B2 /* Pods-Squircle_Example-umbrella.h */,
-				9292E839BB20F17243EA8D73D89AA0F1 /* Pods-Squircle_Example.debug.xcconfig */,
-				BCDDABF2713FB5AA842D875149FD96FB /* Pods-Squircle_Example.release.xcconfig */,
-			);
-			name = "Pods-Squircle_Example";
-			path = "Target Support Files/Pods-Squircle_Example";
+			name = Squircle;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		37D8F1E697DBA01B7CD9B056B58E76DD /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				221330CE657312D29A9CCDE5DB7EC260 /* Pods-Squircle_Example */,
-				0093DDFBE94F1F8FE775090692DF8D95 /* Pods-Squircle_Tests */,
+				FE2F11E0F104C5B41CE6FF1D880455C3 /* Pods-Squircle_Example */,
+				DCA4BFC9266F36829F3EA61F6C817D9F /* Pods-Squircle_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -174,20 +142,24 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		4FE541195C59C082CB2A43D4AB8459D8 /* Pod */ = {
+		4F3B6B6D3B55C7A2C078068C20EF737D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8A76E182465CB535DAC6A5A06C1FA536 /* LICENSE */,
-				E0511058420C063CC976CEEC2D887F17 /* README.md */,
-				698711EFD9F7B6A188FB2C59BFBA286A /* Squircle.podspec */,
+				4FD151EE8D77057E8661028A47F07A5E /* Info.plist */,
+				AE5E1047CDE0852EABE4E0A5BDEE586E /* Squircle.modulemap */,
+				5C179F249198F21E385CC6E4A1AB6490 /* Squircle.xcconfig */,
+				1CBA086ED8C4D1AF1644163F4BE993F3 /* Squircle-dummy.m */,
+				1FDB5F0B7AF11113BE8E816E3C21C0C2 /* Squircle-prefix.pch */,
+				AFCE1F64AAC82E974B09EC3161E7EA0E /* Squircle-umbrella.h */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Squircle";
 			sourceTree = "<group>";
 		};
 		6EC89DEE22010BB05790A856CF0EA3F7 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A251158E07CD6747527EDC29BBDAE616 /* Squircle */,
+				198C3D49E4C5FC41A0D4A6E3FBDA4E6F /* Squircle */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -203,15 +175,32 @@
 			);
 			sourceTree = "<group>";
 		};
-		A251158E07CD6747527EDC29BBDAE616 /* Squircle */ = {
+		86DB04A151A4866EC70F21229F53EC36 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				F280A705524396B20D8B79A3B0BEBAB8 /* Squircle.swift */,
-				4FE541195C59C082CB2A43D4AB8459D8 /* Pod */,
-				19CB2C9156A494C7F832767C36F959ED /* Support Files */,
+				27FDD0936492DF4C8E819C38273FFD31 /* LICENSE */,
+				FB4937C11A80443DB9DF5B71C5FD4391 /* README.md */,
+				EF6F7289A14675963FD9282F74381FA4 /* Squircle.podspec */,
 			);
-			name = Squircle;
-			path = ../..;
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		DCA4BFC9266F36829F3EA61F6C817D9F /* Pods-Squircle_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				26161C6F68666ABC80FF1B92418E4CEF /* Info.plist */,
+				1A82A5F0A01BB5E0B5C0228442E01BC6 /* Pods-Squircle_Tests.modulemap */,
+				D3AB14ABE2C188A837E24E5565F53BCB /* Pods-Squircle_Tests-acknowledgements.markdown */,
+				1D6CAE1DD86A1CBF0041AA0BBDE2CF3A /* Pods-Squircle_Tests-acknowledgements.plist */,
+				DBC1EE47D031581895E7772D4D47C24A /* Pods-Squircle_Tests-dummy.m */,
+				DB3AB1CC21476885622681DF8BFEF49C /* Pods-Squircle_Tests-frameworks.sh */,
+				3B763D6AC79E71B65AACB62AD5470365 /* Pods-Squircle_Tests-resources.sh */,
+				FBC91BA7D72FD2A223A64524BE6B22A2 /* Pods-Squircle_Tests-umbrella.h */,
+				66E5E8780202013E64FA6D23F8AD82B5 /* Pods-Squircle_Tests.debug.xcconfig */,
+				59B364511A48430B020A176F8B8C2D83 /* Pods-Squircle_Tests.release.xcconfig */,
+			);
+			name = "Pods-Squircle_Tests";
+			path = "Target Support Files/Pods-Squircle_Tests";
 			sourceTree = "<group>";
 		};
 		F4212E3F7774A15E104952D12DBA5C56 /* Products */ = {
@@ -222,6 +211,24 @@
 				DA3CE89200DDB597A1919111F5C89981 /* Squircle.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		FE2F11E0F104C5B41CE6FF1D880455C3 /* Pods-Squircle_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C4ED5A650903E4C842E562DC43628280 /* Info.plist */,
+				D12A024CB1C0A0E74F4CE1A8C9B16D46 /* Pods-Squircle_Example.modulemap */,
+				A070C1C4B5CFCC886571F003F61AB84D /* Pods-Squircle_Example-acknowledgements.markdown */,
+				48B930C2EEB574271D418C0E71C8B845 /* Pods-Squircle_Example-acknowledgements.plist */,
+				F8B2F34BB3CAC9451D513557358E0B11 /* Pods-Squircle_Example-dummy.m */,
+				BC154AE72052ECDE1CE639C36D63FFD8 /* Pods-Squircle_Example-frameworks.sh */,
+				70E02BE60A63DAFD63B57C084379D605 /* Pods-Squircle_Example-resources.sh */,
+				59382E3B211B15CCD55FC6D904F18EA5 /* Pods-Squircle_Example-umbrella.h */,
+				35416DCFE3607E551FA6CBF71CAD40A8 /* Pods-Squircle_Example.debug.xcconfig */,
+				4E02330B3394DCB8787494EE9D27A4AF /* Pods-Squircle_Example.release.xcconfig */,
+			);
+			name = "Pods-Squircle_Example";
+			path = "Target Support Files/Pods-Squircle_Example";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,11 +242,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CAD7D2858D6D4B455641828461B4E952 /* Headers */ = {
+		BB2258E428EF6FC52331A0628284B187 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD8E69C892361CBB92CB589E51BCCBE3 /* Pods-Squircle_Tests-umbrella.h in Headers */,
+				354D3A91A04C1E70FA5932CA0F65C2A7 /* Pods-Squircle_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,17 +279,18 @@
 			productReference = 13B81F835F7ACB3F00D8D22EEC11E913 /* Pods_Squircle_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		0C6F51BEE6C291AB48E2D2CDBB72E45F /* Pods-Squircle_Tests */ = {
+		3F227DCC4F008DC21E52C35FADB4F8AA /* Pods-Squircle_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 69BD8389DC3586C489BFD3B5649318EF /* Build configuration list for PBXNativeTarget "Pods-Squircle_Tests" */;
+			buildConfigurationList = FE1F74F92A2C379F3ECC892CD816147B /* Build configuration list for PBXNativeTarget "Pods-Squircle_Tests" */;
 			buildPhases = (
-				F7BC9CBB282C46F2F4D7D7B8747DD069 /* Sources */,
-				9856CABDD5E27456418AA739FA4EADE1 /* Frameworks */,
-				CAD7D2858D6D4B455641828461B4E952 /* Headers */,
+				E2FA7F8F45AE681523FE55DC99A07368 /* Sources */,
+				457C189348063DF12F3DB133C75F9FEE /* Frameworks */,
+				BB2258E428EF6FC52331A0628284B187 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F874B2F6B836BE317DDB77EA2CD86203 /* PBXTargetDependency */,
 			);
 			name = "Pods-Squircle_Tests";
 			productName = "Pods-Squircle_Tests";
@@ -293,7 +301,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 05E3A1AAD84AE18EE73B2D17F3D8BA1B /* Build configuration list for PBXNativeTarget "Squircle" */;
 			buildPhases = (
-				A84569C66B31DA2E4545418685100C2F /* Sources */,
+				54C67D8E3EA11B56A31B10CEBB9FD2EE /* Sources */,
 				DFC5CA193B6ABE28F8B8078829A546AF /* Frameworks */,
 				530639D94464C6CEF392F39057A35423 /* Headers */,
 			);
@@ -312,7 +320,7 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
+				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -328,13 +336,22 @@
 			projectRoot = "";
 			targets = (
 				0B0CD1CD35039EA994445BB2A28E57EC /* Pods-Squircle_Example */,
-				0C6F51BEE6C291AB48E2D2CDBB72E45F /* Pods-Squircle_Tests */,
+				3F227DCC4F008DC21E52C35FADB4F8AA /* Pods-Squircle_Tests */,
 				87FAA6C8E8A24725D9EB52296E3479AB /* Squircle */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		54C67D8E3EA11B56A31B10CEBB9FD2EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B067883F582B124D5CE8D64D6DE38DC4 /* Squircle-dummy.m in Sources */,
+				2483BBCC307CE2BFB6CDFFB22B944847 /* Squircle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8D20E6A0866164C45AE32A748D92E8B8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -343,20 +360,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A84569C66B31DA2E4545418685100C2F /* Sources */ = {
+		E2FA7F8F45AE681523FE55DC99A07368 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23CDD437BF50DEF14A9805D7E3F894A9 /* Squircle-dummy.m in Sources */,
-				D8E52E4D0F949F9984F9B1229D76E1EB /* Squircle.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F7BC9CBB282C46F2F4D7D7B8747DD069 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1E1F45D640604D3A31D70615556785A5 /* Pods-Squircle_Tests-dummy.m in Sources */,
+				86DAF6DB6C9EB2E2ADB60AAE6369EFB3 /* Pods-Squircle_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,13 +377,119 @@
 			target = 87FAA6C8E8A24725D9EB52296E3479AB /* Squircle */;
 			targetProxy = 9426797543307548B21A861A924AFCCE /* PBXContainerItemProxy */;
 		};
+		F874B2F6B836BE317DDB77EA2CD86203 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Squircle_Example";
+			target = 0B0CD1CD35039EA994445BB2A28E57EC /* Pods-Squircle_Example */;
+			targetProxy = 5532263A5C685E1C97DEEE63BFC949A9 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		011A43ABB60FE6A341C55B968ACCBD13 /* Release */ = {
+		07C286B8F2980A81E5C7DF379C349B17 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BCDDABF2713FB5AA842D875149FD96FB /* Pods-Squircle_Example.release.xcconfig */;
+			baseConfigurationReference = 5C179F249198F21E385CC6E4A1AB6490 /* Squircle.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Squircle/Squircle-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Squircle/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Squircle/Squircle.modulemap";
+				PRODUCT_MODULE_NAME = Squircle;
+				PRODUCT_NAME = Squircle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2E6E51364EDFD9A6E4850CF91C883803 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66E5E8780202013E64FA6D23F8AD82B5 /* Pods-Squircle_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Squircle_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Squircle_Tests/Pods-Squircle_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		382D796BAF93D4473BFB697EFD299871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59B364511A48430B020A176F8B8C2D83 /* Pods-Squircle_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Squircle_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Squircle_Tests/Pods-Squircle_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		811EDBF7774E40BF7BEF6A6D6B1CF9F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E02330B3394DCB8787494EE9D27A4AF /* Pods-Squircle_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -395,7 +509,7 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Squircle_Example;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -406,7 +520,7 @@
 			};
 			name = Release;
 		};
-		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -416,6 +530,7 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
@@ -437,6 +552,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -461,50 +577,17 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		6B42AC71A7681DD8572B9BE21984CE45 /* Release */ = {
+		9CAD0E545E166EBF0DBBCE8A6212D7E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7EA04267CD7CE6AAAE1B7CCD00DB03E8 /* Pods-Squircle_Tests.release.xcconfig */;
+			baseConfigurationReference = 35416DCFE3607E551FA6CBF71CAD40A8 /* Pods-Squircle_Example.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Squircle_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Squircle_Tests/Pods-Squircle_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Squircle_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		6D9C72E23874CF0A3E4620E6F596F777 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9292E839BB20F17243EA8D73D89AA0F1 /* Pods-Squircle_Example.debug.xcconfig */;
-			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -524,7 +607,7 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Squircle_Example;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -535,7 +618,7 @@
 			};
 			name = Debug;
 		};
-		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -545,6 +628,7 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
@@ -566,6 +650,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -586,16 +671,14 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		762CE1F044E652E640234DC4F325287B /* Release */ = {
+		CA828FBC25B86DE7B987AF46FE645098 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 53FA5F953960806E89C4486E820FDA21 /* Squircle.xcconfig */;
+			baseConfigurationReference = 5C179F249198F21E385CC6E4A1AB6490 /* Squircle.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -612,6 +695,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Squircle/Squircle.modulemap";
+				PRODUCT_MODULE_NAME = Squircle;
 				PRODUCT_NAME = Squircle;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -625,77 +709,14 @@
 			};
 			name = Release;
 		};
-		A684F6E9DF76FF6EE186010B4F926066 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8B3A106922668C6AEF0EDB98AD7CE642 /* Pods-Squircle_Tests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Squircle_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Squircle_Tests/Pods-Squircle_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Squircle_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F84DD232EE5B7AB747541812952C581A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 53FA5F953960806E89C4486E820FDA21 /* Squircle.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Squircle/Squircle-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Squircle/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Squircle/Squircle.modulemap";
-				PRODUCT_NAME = Squircle;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		05E3A1AAD84AE18EE73B2D17F3D8BA1B /* Build configuration list for PBXNativeTarget "Squircle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F84DD232EE5B7AB747541812952C581A /* Debug */,
-				762CE1F044E652E640234DC4F325287B /* Release */,
+				07C286B8F2980A81E5C7DF379C349B17 /* Debug */,
+				CA828FBC25B86DE7B987AF46FE645098 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -703,17 +724,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
-				731DC216E1A58545B559F6E0A2418060 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		69BD8389DC3586C489BFD3B5649318EF /* Build configuration list for PBXNativeTarget "Pods-Squircle_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A684F6E9DF76FF6EE186010B4F926066 /* Debug */,
-				6B42AC71A7681DD8572B9BE21984CE45 /* Release */,
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -721,8 +733,17 @@
 		899252E2A9CD9D2220F50915F9F985CC /* Build configuration list for PBXNativeTarget "Pods-Squircle_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6D9C72E23874CF0A3E4620E6F596F777 /* Debug */,
-				011A43ABB60FE6A341C55B968ACCBD13 /* Release */,
+				9CAD0E545E166EBF0DBBCE8A6212D7E8 /* Debug */,
+				811EDBF7774E40BF7BEF6A6D6B1CF9F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE1F74F92A2C379F3ECC892CD816147B /* Build configuration list for PBXNativeTarget "Pods-Squircle_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E6E51364EDFD9A6E4850CF91C883803 /* Debug */,
+				382D796BAF93D4473BFB697EFD299871 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
