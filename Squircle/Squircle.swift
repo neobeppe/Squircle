@@ -15,9 +15,21 @@ extension UIView {
      - radius: Radius value to apply, if missing or greater than 4.7 times view's smaller side, view's smaller side will be used instead.
      */
     public func squircle(with radius: CGFloat? = nil) {
+        self.layer.applySquircle(with: radius)
+    }
+}
+
+extension CALayer {
+    
+    /**
+     Apply a squircle mask corner radius to a CALayer.
+     - parameters:
+     - radius: Radius value to apply, if missing or greater than 4.7 times layer's smaller side, layer's smaller side will be used instead.
+     */
+    public func applySquircle(with radius: CGFloat? = nil) {
         let maskLayer = CAShapeLayer()
         maskLayer.path = squirclePath(with: radius).cgPath
-        self.layer.mask = maskLayer
+        self.mask = maskLayer
     }
     
     internal func squirclePath(with radius: CGFloat?) -> UIBezierPath {
