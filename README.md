@@ -3,7 +3,7 @@
 
 
 
-[![Build Status](https://www.bitrise.io/app/2736aa1acbc2546f/status.svg?token=q3ZW_AHeagHDjYtl366wNQ)](https://www.bitrise.io/app/2736aa1acbc2546f) [![Version](https://img.shields.io/cocoapods/v/Squircle.svg?style=flat)](http://cocoapods.org/pods/Squircle) [![License](https://img.shields.io/cocoapods/l/Squircle.svg?style=flat)](http://cocoapods.org/pods/Squircle) [![Platform](https://img.shields.io/cocoapods/p/Squircle.svg?style=flat)](http://cocoapods.org/pods/Squircle)
+[![Build Status](https://travis-ci.org/neobeppe/Squircle.svg?branch=master)](https://travis-ci.org/neobeppe/Squircle) [![Version](https://img.shields.io/cocoapods/v/Squircle.svg?style=flat)](http://cocoapods.org/pods/Squircle) [![License](https://img.shields.io/cocoapods/l/Squircle.svg?style=flat)](http://cocoapods.org/pods/Squircle) [![Platform](https://img.shields.io/cocoapods/p/Squircle.svg?style=flat)](http://cocoapods.org/pods/Squircle)
 
 
 
