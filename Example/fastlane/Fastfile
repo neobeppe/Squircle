@@ -49,7 +49,7 @@ platform :ios do
       scheme: "Squircle-Example",
       binary_basename: "Squircle",
       source_directory: "../Squircle",
-      simple_output: true
+      simple_output: true,
       coveralls: true
     )
   end
