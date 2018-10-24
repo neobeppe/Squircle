@@ -38,13 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		13B81F835F7ACB3F00D8D22EEC11E913 /* Pods_Squircle_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Squircle_Example.framework; path = "Pods-Squircle_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B81F835F7ACB3F00D8D22EEC11E913 /* Pods_Squircle_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Squircle_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A82A5F0A01BB5E0B5C0228442E01BC6 /* Pods-Squircle_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Squircle_Tests.modulemap"; sourceTree = "<group>"; };
 		1CBA086ED8C4D1AF1644163F4BE993F3 /* Squircle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Squircle-dummy.m"; sourceTree = "<group>"; };
 		1D6CAE1DD86A1CBF0041AA0BBDE2CF3A /* Pods-Squircle_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Squircle_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		1FDB5F0B7AF11113BE8E816E3C21C0C2 /* Squircle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Squircle-prefix.pch"; sourceTree = "<group>"; };
 		26161C6F68666ABC80FF1B92418E4CEF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		27FDD0936492DF4C8E819C38273FFD31 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		27FDD0936492DF4C8E819C38273FFD31 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		35416DCFE3607E551FA6CBF71CAD40A8 /* Pods-Squircle_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Squircle_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3B763D6AC79E71B65AACB62AD5470365 /* Pods-Squircle_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Squircle_Tests-resources.sh"; sourceTree = "<group>"; };
@@ -58,21 +58,21 @@
 		70E02BE60A63DAFD63B57C084379D605 /* Pods-Squircle_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Squircle_Example-resources.sh"; sourceTree = "<group>"; };
 		74E404AA6957590324067E330E0EC533 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		77A60A007DBAE51B65E8E1F56F458D6B /* Squircle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Squircle.swift; path = Squircle/Squircle.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A070C1C4B5CFCC886571F003F61AB84D /* Pods-Squircle_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Squircle_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AE5E1047CDE0852EABE4E0A5BDEE586E /* Squircle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Squircle.modulemap; sourceTree = "<group>"; };
 		AFCE1F64AAC82E974B09EC3161E7EA0E /* Squircle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Squircle-umbrella.h"; sourceTree = "<group>"; };
-		B8098499A2C4D43923216896090C3E6B /* Pods_Squircle_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Squircle_Tests.framework; path = "Pods-Squircle_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8098499A2C4D43923216896090C3E6B /* Pods_Squircle_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Squircle_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC154AE72052ECDE1CE639C36D63FFD8 /* Pods-Squircle_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Squircle_Example-frameworks.sh"; sourceTree = "<group>"; };
 		C4ED5A650903E4C842E562DC43628280 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D12A024CB1C0A0E74F4CE1A8C9B16D46 /* Pods-Squircle_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Squircle_Example.modulemap"; sourceTree = "<group>"; };
 		D3AB14ABE2C188A837E24E5565F53BCB /* Pods-Squircle_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Squircle_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DA3CE89200DDB597A1919111F5C89981 /* Squircle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Squircle.framework; path = Squircle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA3CE89200DDB597A1919111F5C89981 /* Squircle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Squircle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB3AB1CC21476885622681DF8BFEF49C /* Pods-Squircle_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Squircle_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		DBC1EE47D031581895E7772D4D47C24A /* Pods-Squircle_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Squircle_Tests-dummy.m"; sourceTree = "<group>"; };
-		EF6F7289A14675963FD9282F74381FA4 /* Squircle.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = Squircle.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EF6F7289A14675963FD9282F74381FA4 /* Squircle.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = Squircle.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F8B2F34BB3CAC9451D513557358E0B11 /* Pods-Squircle_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Squircle_Example-dummy.m"; sourceTree = "<group>"; };
-		FB4937C11A80443DB9DF5B71C5FD4391 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		FB4937C11A80443DB9DF5B71C5FD4391 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FBC91BA7D72FD2A223A64524BE6B22A2 /* Pods-Squircle_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Squircle_Tests-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -325,6 +325,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					780DDAC044B14E7537A82326BB6DFA64 = {
+						LastSwiftMigration = 1000;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -504,7 +509,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -632,8 +637,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -696,7 +700,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
