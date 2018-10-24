@@ -23,6 +23,12 @@ platform :ios do
     coverage
   end
 
+  lane :pod_lint do
+    Dir.chdir("../..") do
+      sh("pod lib lint")
+    end
+  end
+
   lane :lint do
     swiftlint(
       mode: :lint,
