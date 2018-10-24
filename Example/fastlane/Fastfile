@@ -44,7 +44,7 @@ platform :ios do
   lane :coverage do
     slather(
       travis: true,
-      proj: "Squircle.xcodeproj",
+      workspace: "Squircle.xcworkspace",
       scheme: "Squircle-Example",
       #lignore: "Configs/*",
       coveralls: true
