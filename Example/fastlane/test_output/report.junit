@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='Squircle_Tests.xctest' tests='3' failures='0'>
+  <testsuite name='Squircle_Tests.BasicTests' tests='3' failures='0'>
+    <testcase classname='Squircle_Tests.BasicTests' name='testDifferentsPaths' time='0.008'/>
+    <testcase classname='Squircle_Tests.BasicTests' name='testEqualPaths' time='0.001'/>
+    <testcase classname='Squircle_Tests.BasicTests' name='testImplementation' time='0.002'/>
+  </testsuite>
+</testsuites>

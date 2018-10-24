@@ -1,0 +1,72 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:ios)
+
+platform :ios do
+
+  lane :ci do
+    pod_lint
+    lint
+    test
+    coverage
+  end
+
+  lane :pod_lint do
+    Dir.chdir("../..") do
+      sh("pod lib lint")
+    end
+  end
+
+  lane :lint do
+    swiftlint(
+      mode: :lint,
+      config_file: ".swiftlint.yml",
+      ignore_exit_status: false
+    )
+  end
+
+  lane :test do
+    cocoapods(
+      use_bundle_exec: false
+    )
+    scan(
+      scheme: "Squircle-Example",
+      device: "iPhone XS"
+    )
+  end
+
+  lane :coverage do
+    slather(
+      travis: true,
+      proj: "Squircle.xcodeproj",
+      workspace: "Squircle.xcworkspace",
+      scheme: "Squircle-Example",
+      binary_basename: "Squircle",
+      source_directory: "../Squircle",
+      simple_output: true,
+      coveralls: true
+    )
+  end
+
+  lane :clean do
+      clean_build_artifacts
+  end
+
+  after_all do |lane|
+      clean
+  end
+
+end
