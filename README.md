@@ -3,7 +3,7 @@
 
 
 
-[![Build Status](https://travis-ci.org/neobeppe/Squircle.svg?branch=master)](https://travis-ci.org/neobeppe/Squircle) [![Version](https://img.shields.io/cocoapods/v/Squircle.svg?style=flat)](http://cocoapods.org/pods/Squircle) [![License](https://img.shields.io/cocoapods/l/Squircle.svg?style=flat)](http://cocoapods.org/pods/Squircle) [![Platform](https://img.shields.io/cocoapods/p/Squircle.svg?style=flat)](http://cocoapods.org/pods/Squircle)
+[![Build Status](https://travis-ci.org/neobeppe/Squircle.svg?branch=master)](https://travis-ci.org/neobeppe/Squircle) [![Version](https://img.shields.io/cocoapods/v/Squircle.svg?style=flat)](http://cocoapods.org/pods/Squircle) [![License](https://img.shields.io/cocoapods/l/Squircle.svg?style=flat)](http://cocoapods.org/pods/Squircle) [![Platform](https://img.shields.io/cocoapods/p/Squircle.svg?style=flat)](http://cocoapods.org/pods/Squircle) [![Coverage Status](https://coveralls.io/repos/github/neobeppe/Squircle/badge.svg?branch=swift4.2)](https://coveralls.io/github/neobeppe/Squircle?branch=master)
 
 
 
