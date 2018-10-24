@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="fastlane.lanes">
+    
+    
+    
+      
+      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.007699">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="1: cocoapods" time="2.093546">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="2: scan" time="48.059877">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="3: Switch to ios clean lane" time="0.001335">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="4: clean_build_artifacts" time="0.001657">
+        
+      </testcase>
+    
+  </testsuite>
+</testsuites>
