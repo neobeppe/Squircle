@@ -3,6 +3,7 @@ disabled_rules: # rule identifiers to exclude from running
     - line_length
     - function_parameter_count
     - unused_closure_parameter
+    - identifier_name
 opt_in_rules: # some rules are only opt-in
     - force_unwrapping
     - empty_count
