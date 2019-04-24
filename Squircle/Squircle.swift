@@ -24,11 +24,11 @@ extension CALayer {
      */
     public func applySquircle() {
         let maskLayer = CAShapeLayer()
-        maskLayer.path = squirclePath().cgPath
+        maskLayer.path = squirclePath.cgPath
         self.mask = maskLayer
     }
     
-    internal func squirclePath() -> UIBezierPath {
+    internal var squirclePath: UIBezierPath {
         
         let width = bounds.width
         let height = bounds.height
