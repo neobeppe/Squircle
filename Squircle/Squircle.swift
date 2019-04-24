@@ -11,11 +11,9 @@ extension UIView {
     
     /**
      Apply squircle corner radius.
-     - parameters:
-     - radius: Radius value to apply, if missing or greater than 4.7 times view's smaller side, view's smaller side will be used instead.
      */
-    public func squircle(with radius: CGFloat? = nil) {
-        self.layer.applySquircle(with: radius)
+    public func squircle() {
+        self.layer.applySquircle()
     }
 }
 
@@ -23,56 +21,71 @@ extension CALayer {
     
     /**
      Apply a squircle mask corner radius to a CALayer.
-     - parameters:
-     - radius: Radius value to apply, if missing or greater than 4.7 times layer's smaller side, layer's smaller side will be used instead.
      */
-    public func applySquircle(with radius: CGFloat? = nil) {
+    public func applySquircle() {
         let maskLayer = CAShapeLayer()
-        maskLayer.path = squirclePath(with: radius).cgPath
+        maskLayer.path = squirclePath().cgPath
         self.mask = maskLayer
     }
     
-    internal func squirclePath(with radius: CGFloat?) -> UIBezierPath {
+    internal func squirclePath() -> UIBezierPath {
         
-        var squircleSide = min(bounds.width, bounds.height)
+        let width = bounds.width
+        let height = bounds.height
+        let squircleSide = min(width, height)
+        CGPoint.xDelta = abs(squircleSide - width)
+        CGPoint.yDelta = abs(squircleSide - height)
         
-        if let radius = radius, radius * 4.7 < squircleSide {
-            squircleSide = radius * 4.7
-        } else {
-            print("invalid radius: radious should be less then 4.7 times view minor side")
-        }
-        
-        let innerSquare = CGRect(x: 0, y: 0, width: squircleSide, height: squircleSide)
-        
-        let horizontalTranslation = bounds.width - squircleSide
-        let verticalTranslation = bounds.height - squircleSide
-        
-        let firstCornerStartPoint = CGPoint(x: innerSquare.minX, y: innerSquare.midY)
-        let firstCornerPoint = CGPoint(x: innerSquare.minX, y: innerSquare.minY)
-        let firstCornerEndPoint = CGPoint(x: innerSquare.midX, y: innerSquare.minY)
-        
-        let secondCornerStartPoint = CGPoint(x: innerSquare.midX + horizontalTranslation, y: innerSquare.minY)
-        let secondCornerPoint = CGPoint(x: innerSquare.maxX + horizontalTranslation, y: innerSquare.minY)
-        let secondCornerEndPoint = CGPoint(x: innerSquare.maxX + horizontalTranslation, y: innerSquare.midY)
-        
-        let thirdCornerStartPoint = CGPoint(x: innerSquare.maxX + horizontalTranslation, y: innerSquare.midY + verticalTranslation)
-        let thirdCornerPoint = CGPoint(x: innerSquare.maxX + horizontalTranslation, y: innerSquare.maxY + verticalTranslation)
-        let thirdCornerEndPoint = CGPoint(x: innerSquare.midX + horizontalTranslation, y: innerSquare.maxY + verticalTranslation)
-        
-        let fourthCornerStartPoint = CGPoint(x: innerSquare.midX, y: innerSquare.maxY + verticalTranslation)
-        let fourthCornerPoint = CGPoint(x: innerSquare.minX, y: innerSquare.maxY + verticalTranslation)
-        let fourthCornerEndPoint = CGPoint(x: innerSquare.minX, y: innerSquare.midY + verticalTranslation)
+        let checkpoints = Checkpoints(width: bounds.width, height: bounds.height)
         
         let path = UIBezierPath()
-        path.move(to: firstCornerStartPoint)
-        path.addCurve(to: firstCornerEndPoint, controlPoint1: firstCornerPoint, controlPoint2: firstCornerPoint)
-        path.addLine(to: secondCornerStartPoint)
-        path.addCurve(to: secondCornerEndPoint, controlPoint1: secondCornerPoint, controlPoint2: secondCornerPoint)
-        path.addLine(to: thirdCornerStartPoint)
-        path.addCurve(to: thirdCornerEndPoint, controlPoint1: thirdCornerPoint, controlPoint2: thirdCornerPoint)
-        path.addLine(to: fourthCornerStartPoint)
-        path.addCurve(to: fourthCornerEndPoint, controlPoint1: fourthCornerPoint, controlPoint2: fourthCornerPoint)
-        path.addLine(to: firstCornerStartPoint)
+        path.move(to: CGPoint(x: checkpoints.cornerDelta, y: 0))
+        
+        path.addLine(to: CGPoint(x: width-checkpoints.cornerDelta, y: 0))
+        path.addCurve(to: CGPoint.xDeltaPoint(x: checkpoints.checkpoint0, y: squircleSide-checkpoints.checkpoint3),
+                      controlPoint1: CGPoint.xDeltaPoint(x: checkpoints.checkpoint1, y: 0),
+                      controlPoint2: CGPoint.xDeltaPoint(x: checkpoints.checkpoint2, y: 0))
+        path.addCurve(to: CGPoint.xDeltaPoint(x: checkpoints.checkpoint3, y: squircleSide-checkpoints.checkpoint0),
+                      controlPoint1: CGPoint.xDeltaPoint(x: checkpoints.checkpoint4, y: squircleSide-checkpoints.checkpoint5),
+                      controlPoint2: CGPoint.xDeltaPoint(x: checkpoints.checkpoint5, y: squircleSide-checkpoints.checkpoint4))
+        path.addCurve(to: CGPoint.xDeltaPoint(x: squircleSide, y: checkpoints.cornerDelta),
+                      controlPoint1: CGPoint.xDeltaPoint(x: squircleSide, y: squircleSide-checkpoints.checkpoint2),
+                      controlPoint2: CGPoint.xDeltaPoint(x: squircleSide, y: squircleSide-checkpoints.checkpoint1))
+        
+        path.addLine(to: CGPoint(x: width, y: height-checkpoints.cornerDelta))
+        path.addCurve(to: CGPoint.deltaPoint(x: checkpoints.checkpoint3, y: checkpoints.checkpoint0),
+                      controlPoint1: CGPoint.deltaPoint(x: squircleSide, y: checkpoints.checkpoint1),
+                      controlPoint2: CGPoint.deltaPoint(x: squircleSide, y: checkpoints.checkpoint2))
+        path.addCurve(to: CGPoint.deltaPoint(x: checkpoints.checkpoint0, y: checkpoints.checkpoint3),
+                      controlPoint1: CGPoint.deltaPoint(x: checkpoints.checkpoint5, y: checkpoints.checkpoint4),
+                      controlPoint2: CGPoint.deltaPoint(x: checkpoints.checkpoint4, y: checkpoints.checkpoint5))
+        path.addCurve(to: CGPoint.deltaPoint(x: squircleSide-checkpoints.cornerDelta, y: squircleSide),
+                      controlPoint1: CGPoint.deltaPoint(x: checkpoints.checkpoint2, y: squircleSide),
+                      controlPoint2: CGPoint.deltaPoint(x: checkpoints.checkpoint1, y: squircleSide))
+
+        path.addLine(to: CGPoint(x: checkpoints.cornerDelta, y: height))
+        path.addCurve(to: CGPoint.yDeltaPoint(x: squircleSide-checkpoints.checkpoint0, y: checkpoints.checkpoint3),
+                      controlPoint1: CGPoint.yDeltaPoint(x: squircleSide-checkpoints.checkpoint1, y: squircleSide),
+                      controlPoint2: CGPoint.yDeltaPoint(x: squircleSide-checkpoints.checkpoint2, y: squircleSide))
+        path.addCurve(to: CGPoint.yDeltaPoint(x: squircleSide-checkpoints.checkpoint3, y: checkpoints.checkpoint0),
+                      controlPoint1: CGPoint.yDeltaPoint(x: squircleSide-checkpoints.checkpoint4, y: checkpoints.checkpoint5),
+                      controlPoint2: CGPoint.yDeltaPoint(x: squircleSide-checkpoints.checkpoint5, y: checkpoints.checkpoint4))
+        path.addCurve(to: CGPoint.yDeltaPoint(x: 0, y: squircleSide-checkpoints.cornerDelta),
+                      controlPoint1: CGPoint.yDeltaPoint(x: 0, y: checkpoints.checkpoint2),
+                      controlPoint2: CGPoint.yDeltaPoint(x: 0, y: checkpoints.checkpoint1))
+
+        path.addLine(to: CGPoint(x: 0, y: checkpoints.cornerDelta))
+        path.addCurve(to: CGPoint(x: squircleSide-checkpoints.checkpoint3, y: squircleSide-checkpoints.checkpoint0),
+                      controlPoint1: CGPoint(x: 0, y: squircleSide-checkpoints.checkpoint1),
+                      controlPoint2: CGPoint(x: 0, y: squircleSide-checkpoints.checkpoint2))
+        path.addCurve(to: CGPoint(x: squircleSide-checkpoints.checkpoint0, y: squircleSide-checkpoints.checkpoint3),
+                      controlPoint1: CGPoint(x: squircleSide-checkpoints.checkpoint5, y: squircleSide-checkpoints.checkpoint4),
+                      controlPoint2: CGPoint(x: squircleSide-checkpoints.checkpoint4, y: squircleSide-checkpoints.checkpoint5))
+        path.addCurve(to: CGPoint(x: checkpoints.cornerDelta, y: 0),
+                      controlPoint1: CGPoint(x: squircleSide-checkpoints.checkpoint2, y: 0),
+                      controlPoint2: CGPoint(x: squircleSide-checkpoints.checkpoint1, y: 0))
+        
+        path.close()
         
         return path
     }

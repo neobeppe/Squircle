@@ -13,11 +13,13 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var squircleView: UIView!
     
+    @IBOutlet var view3: UIView!
+    @IBOutlet var view2: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        squircleView.squircle(with: 10)
-        
+        squircleView.squircle()
+        view2.squircle()
+        view3.squircle()
     }
 
     override func didReceiveMemoryWarning() {
