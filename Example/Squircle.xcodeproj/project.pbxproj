@@ -286,7 +286,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Squircle_Example/Pods-Squircle_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Squircle_Example/Pods-Squircle_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Squircle/Squircle.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -295,7 +295,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Squircle_Example/Pods-Squircle_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Squircle_Example/Pods-Squircle_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7A43152F207E027F00848808 /* SwiftLint */ = {

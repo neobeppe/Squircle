@@ -42,20 +42,12 @@ view.squircle()
 
 just apply conventional squircle radius to the view. If the view is a square, i'll obtain the same effect as iOS springboard icons, if it's a rectangle i'll obtain rounded corners based on a square built on smallest side.
 
-```swift
-let view = UIView()
-view.squircle(with: radius)
-```
-
-permits you to define a radius, similar to iOS corner radius. If the radius is bigger than smallest side length multiplied by 4.7, `radius` parameter will be ignored.
-
-
 Squircle is also an CALayer extension, permitting you to add a squircle mask directly on a layer.
 Rules are the same as the UIView methods, invocation is:
 
 ```swift
 let layer = CALayer()
-layer.applySquircle(with: radius)
+layer.applySquircle()
 ```
 
 ## License

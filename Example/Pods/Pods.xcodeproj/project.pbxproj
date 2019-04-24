@@ -16,6 +16,7 @@
 		703493CB8A8A17BE052A9884D7F8ED2A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E404AA6957590324067E330E0EC533 /* UIKit.framework */; };
 		7AF9C99F227051E800B071A4 /* Checkpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF9C99E227051E800B071A4 /* Checkpoints.swift */; };
 		7AF9C9A122706CBB00B071A4 /* CGPoint+Delta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF9C9A022706CBB00B071A4 /* CGPoint+Delta.swift */; };
+		7AF9C9A32270934100B071A4 /* Squircle+Internal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF9C9A22270934100B071A4 /* Squircle+Internal.swift */; };
 		A548F4CEC29B1DEA3A66932A59300AAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
 		D7F24A71DB4D8B5F1A49046D61B02B43 /* Pods-Squircle_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FBC91BA7D72FD2A223A64524BE6B22A2 /* Pods-Squircle_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F40FF2FBA0813AF4CEE3D06B4842951D /* Pods-Squircle_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 59382E3B211B15CCD55FC6D904F18EA5 /* Pods-Squircle_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -60,8 +61,9 @@
 		70E02BE60A63DAFD63B57C084379D605 /* Pods-Squircle_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Squircle_Example-resources.sh"; sourceTree = "<group>"; };
 		74E404AA6957590324067E330E0EC533 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		77A60A007DBAE51B65E8E1F56F458D6B /* Squircle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Squircle.swift; path = Squircle/Squircle.swift; sourceTree = "<group>"; };
-		7AF9C99E227051E800B071A4 /* Checkpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkpoints.swift; sourceTree = "<group>"; };
-		7AF9C9A022706CBB00B071A4 /* CGPoint+Delta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGPoint+Delta.swift"; sourceTree = "<group>"; };
+		7AF9C99E227051E800B071A4 /* Checkpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Checkpoints.swift; path = ../Squircle/Internal/Checkpoints.swift; sourceTree = "<group>"; };
+		7AF9C9A022706CBB00B071A4 /* CGPoint+Delta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CGPoint+Delta.swift"; path = "../Squircle/Internal/CGPoint+Delta.swift"; sourceTree = "<group>"; };
+		7AF9C9A22270934100B071A4 /* Squircle+Internal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Squircle+Internal.swift"; path = "../Squircle/Internal/Squircle+Internal.swift"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A070C1C4B5CFCC886571F003F61AB84D /* Pods-Squircle_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Squircle_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AE5E1047CDE0852EABE4E0A5BDEE586E /* Squircle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Squircle.modulemap; sourceTree = "<group>"; };
@@ -122,8 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				77A60A007DBAE51B65E8E1F56F458D6B /* Squircle.swift */,
-				7AF9C99E227051E800B071A4 /* Checkpoints.swift */,
-				7AF9C9A022706CBB00B071A4 /* CGPoint+Delta.swift */,
+				7AF9C9A42270938900B071A4 /* Internal */,
 				86DB04A151A4866EC70F21229F53EC36 /* Pod */,
 				4F3B6B6D3B55C7A2C078068C20EF737D /* Support Files */,
 			);
@@ -168,6 +169,16 @@
 				198C3D49E4C5FC41A0D4A6E3FBDA4E6F /* Squircle */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7AF9C9A42270938900B071A4 /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				7AF9C9A22270934100B071A4 /* Squircle+Internal.swift */,
+				7AF9C99E227051E800B071A4 /* Checkpoints.swift */,
+				7AF9C9A022706CBB00B071A4 /* CGPoint+Delta.swift */,
+			);
+			path = Internal;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -387,6 +398,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7AF9C99F227051E800B071A4 /* Checkpoints.swift in Sources */,
+				7AF9C9A32270934100B071A4 /* Squircle+Internal.swift in Sources */,
 				09AC6000F29EFA428956CEB7DC327D83 /* Squircle-dummy.m in Sources */,
 				0826C50E8FC275F4A863948F4A7C8589 /* Squircle.swift in Sources */,
 				7AF9C9A122706CBB00B071A4 /* CGPoint+Delta.swift in Sources */,

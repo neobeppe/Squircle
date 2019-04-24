@@ -1,5 +1,5 @@
 PODS:
-  - Squircle (1.2.1)
+  - Squircle (2.0.0)
 
 DEPENDENCIES:
   - Squircle (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Squircle: a3dc97c651a9a2ab177c6e7d5ab602f880d8c1a1
+  Squircle: f7337a01fd0767c05a4a6e0dbb6b64f00de6d6d5
 
-PODFILE CHECKSUM: add33662ceb641a0eb0c50ab970a3fb85d40c02f
+PODFILE CHECKSUM: e4d2edd6186ce9f21427c7f696f29d7c6fc51a55
 
 COCOAPODS: 1.6.1
