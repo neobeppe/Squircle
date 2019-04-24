@@ -22,22 +22,34 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lGl-LF-bp0">
-                                <rect key="frame" x="97.5" y="253.5" width="180" height="180"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <rect key="frame" x="97.5" y="264.5" width="180" height="180"/>
+                                <color key="backgroundColor" red="0.99328044039999996" green="0.99328044039999996" blue="0.99328044039999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="lGl-LF-bp0" secondAttribute="height" id="1Rp-bM-FEw"/>
                                     <constraint firstAttribute="width" constant="180" id="pNA-ht-RrM"/>
                                 </constraints>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Ve-mD-hj6">
+                                <rect key="frame" x="97.5" y="42.5" width="180" height="180"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="7Ve-mD-hj6" secondAttribute="height" id="ROU-ku-aGr"/>
+                                    <constraint firstAttribute="width" constant="180" id="gsE-6t-CYv"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="lGl-LF-bp0" secondAttribute="bottom" multiplier="3:2" id="8dN-zP-fzJ"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="7Ve-mD-hj6" secondAttribute="bottom" multiplier="3:1" id="D1A-VX-JFH"/>
                             <constraint firstItem="lGl-LF-bp0" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="Em5-m8-jAo"/>
-                            <constraint firstItem="lGl-LF-bp0" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" constant="10" id="n0j-ea-dIJ"/>
+                            <constraint firstItem="7Ve-mD-hj6" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="ZL8-8x-3V6"/>
+                            <constraint firstItem="7Ve-mD-hj6" firstAttribute="width" secondItem="7Ve-mD-hj6" secondAttribute="height" id="mQw-rE-TcF"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="squircleView" destination="lGl-LF-bp0" id="RhM-wr-EWv"/>
+                        <outlet property="squircle1View" destination="7Ve-mD-hj6" id="jWc-uo-ql9"/>
+                        <outlet property="squircle2View" destination="lGl-LF-bp0" id="1WN-QZ-p6v"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
