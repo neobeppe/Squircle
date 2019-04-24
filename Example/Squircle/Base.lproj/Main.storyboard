@@ -22,44 +22,22 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lGl-LF-bp0">
-                                <rect key="frame" x="97.5" y="293.5" width="180" height="100"/>
+                                <rect key="frame" x="97.5" y="253.5" width="180" height="180"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="0hF-IS-X3C"/>
+                                    <constraint firstAttribute="width" secondItem="lGl-LF-bp0" secondAttribute="height" id="1Rp-bM-FEw"/>
                                     <constraint firstAttribute="width" constant="180" id="pNA-ht-RrM"/>
-                                </constraints>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Muj-th-PYg">
-                                <rect key="frame" x="177.5" y="185" width="100" height="100"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="Muj-th-PYg" secondAttribute="height" id="JLI-tB-Nhh"/>
-                                    <constraint firstAttribute="height" constant="100" id="UhG-rR-5od"/>
-                                </constraints>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y4g-EU-o3g">
-                                <rect key="frame" x="177.5" y="27" width="100" height="150"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="Y4g-EU-o3g" secondAttribute="height" multiplier="2:3" id="7uS-HS-RTL"/>
-                                    <constraint firstAttribute="width" constant="100" id="OBT-qC-mW1"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="lGl-LF-bp0" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="Em5-m8-jAo"/>
-                            <constraint firstItem="Muj-th-PYg" firstAttribute="top" secondItem="Y4g-EU-o3g" secondAttribute="bottom" constant="8" id="H3I-Ec-Al1"/>
-                            <constraint firstItem="Y4g-EU-o3g" firstAttribute="trailing" secondItem="Muj-th-PYg" secondAttribute="trailing" id="SI1-pm-AsY"/>
-                            <constraint firstItem="lGl-LF-bp0" firstAttribute="top" secondItem="Muj-th-PYg" secondAttribute="bottom" constant="8.5" id="aMx-ep-3od"/>
-                            <constraint firstItem="Muj-th-PYg" firstAttribute="trailing" secondItem="lGl-LF-bp0" secondAttribute="trailing" id="bfz-v2-Blb"/>
                             <constraint firstItem="lGl-LF-bp0" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" constant="10" id="n0j-ea-dIJ"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="squircleView" destination="lGl-LF-bp0" id="RhM-wr-EWv"/>
-                        <outlet property="view2" destination="Muj-th-PYg" id="ObD-Ro-myj"/>
-                        <outlet property="view3" destination="Y4g-EU-o3g" id="jKj-40-e9G"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
