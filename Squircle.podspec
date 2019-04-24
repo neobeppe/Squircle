@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Squircle'
-  s.version          = '1.2.1'
+  s.version          = '2.0.0'
   s.summary          = 'Squircle rounding corner for UIView'
 
 
@@ -19,6 +19,6 @@ You can apply
   s.source_files = 'Squircle/**/*'
   s.frameworks = 'UIKit'
   
-  s.swift_version = '4.2'
+  s.swift_version = '5.0'
   
 end
