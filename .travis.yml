@@ -1,8 +1,8 @@
 language: objective-c
 osx_image: xcode10.2
 before_install:
-- gem update fastlane --no-ri --no-rdoc --no-document
-- gem update cocoapods --no-ri --no-rdoc --no-document
+- gem update fastlane --no-document
+- gem update cocoapods --no-document
 script:
 - cd Example/
 - fastlane ci
