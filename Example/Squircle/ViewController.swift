@@ -11,11 +11,14 @@ import Squircle
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var squircleView: UIView!
+    @IBOutlet weak var squircle1View: UIView!
+    @IBOutlet weak var squircle2View: UIView!
     
     override func viewDidLoad() {
+        
         super.viewDidLoad()
-        squircleView.squircle()
+        squircle1View.squircle()
+        squircle2View.squircleWithBorder()
     }
 
     override func didReceiveMemoryWarning() {
