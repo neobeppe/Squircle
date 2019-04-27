@@ -45,7 +45,7 @@
             
             <h1 id='squircle' class='heading'>Squircle</h1>
 
-<p><a href="http://travasoni.com/Squircle"><img src="http://travasoni.com/Squircle/badge.svg" alt="Documentation"></a> <a href="https://travis-ci.org/neobeppe/Squircle"><img src="https://travis-ci.org/neobeppe/Squircle.svg?branch=master" alt="Build Status"></a> <a href="http://cocoapods.org/pods/Squircle"><img src="https://img.shields.io/cocoapods/v/Squircle.svg?style=flat" alt="Version"></a> <a href="http://cocoapods.org/pods/Squircle"><img src="https://img.shields.io/cocoapods/l/Squircle.svg?style=flat" alt="License"></a> <a href="http://cocoapods.org/pods/Squircle"><img src="https://img.shields.io/cocoapods/p/Squircle.svg?style=flat" alt="Platform"></a> <a href="https://coveralls.io/github/neobeppe/Squircle?branch=master"><img src="https://coveralls.io/repos/github/neobeppe/Squircle/badge.svg" alt="Coverage Status"></a></p>
+<p><a href="https://travis-ci.org/neobeppe/Squircle"><img src="https://travis-ci.org/neobeppe/Squircle.svg?branch=master" alt="Build Status"></a> <a href="http://cocoapods.org/pods/Squircle"><img src="https://img.shields.io/cocoapods/v/Squircle.svg?style=flat" alt="Version"></a> <a href="http://cocoapods.org/pods/Squircle"><img src="https://img.shields.io/cocoapods/l/Squircle.svg?style=flat" alt="License"></a> <a href="http://cocoapods.org/pods/Squircle"><img src="https://img.shields.io/cocoapods/p/Squircle.svg?style=flat" alt="Platform"></a> <a href="https://coveralls.io/github/neobeppe/Squircle?branch=master"><img src="https://coveralls.io/repos/github/neobeppe/Squircle/badge.svg?branch=swift4.2" alt="Coverage Status"></a></p>
 <h2 id='example' class='heading'>Example</h2>
 
 <p>To run the example project, clone the repo, and run <code>pod install</code> from the Example directory first.</p>
@@ -59,7 +59,6 @@
 
 </code></pre>
 <h2 id='usage' class='heading'>Usage</h2>
-<h3 id='squircle' class='heading'>Squircle</h3>
 
 <p>Squircle is an UIView extension, and can be used in different ways:</p>
 <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">view</span> <span class="o">=</span> <span class="kt">UIView</span><span class="p">()</span>
@@ -72,15 +71,6 @@
 Rules are the same as the UIView methods, invocation is:</p>
 <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">layer</span> <span class="o">=</span> <span class="kt">CALayer</span><span class="p">()</span>
 <span class="n">layer</span><span class="o">.</span><span class="nf">applySquircle</span><span class="p">()</span>
-</code></pre>
-<h3 id='squircle-with-border' class='heading'>Squircle with border</h3>
-
-<p>If you want to apply squircle with a border use the dedicated methods:</p>
-<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">view</span> <span class="o">=</span> <span class="kt">UIView</span><span class="p">()</span>
-<span class="n">view</span><span class="o">.</span><span class="nf">squircleWithBorder</span><span class="p">(</span><span class="nv">width</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">color</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">)</span>
-</code></pre>
-<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">layer</span> <span class="o">=</span> <span class="kt">CALayer</span><span class="p">()</span>
-<span class="n">layer</span><span class="o">.</span><span class="nf">applySquircleWithBorder</span><span class="p">(</span><span class="nv">width</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">color</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">)</span>
 </code></pre>
 <h2 id='license' class='heading'>License</h2>
 
