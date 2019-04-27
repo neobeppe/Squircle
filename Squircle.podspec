@@ -1,12 +1,11 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Squircle'
-  s.version          = '2.0.0'
+  s.version          = '2.1.0'
   s.summary          = 'Squircle rounding corner for UIView'
 
-
   s.description      = <<-DESC
-Lightweight library to apply a squircle rounded corner to any UIView.
+Lightweight library to apply a squircle rounded corner to any UIView or CALayer.
                        DESC
 
   s.homepage         = 'https://github.com/neobeppe/Squircle'
