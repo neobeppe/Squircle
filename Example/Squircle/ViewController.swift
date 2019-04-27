@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         
         super.viewDidLoad()
         squircle1View.squircle()
-        squircle2View.squircleWithBorder()
+        squircle2View.squircleWithBorder(width: 5.0, color: .orange)
     }
 
     override func didReceiveMemoryWarning() {
