@@ -1,6 +1,0 @@
-framework module Pods_Squircle_Tests {
-  umbrella header "Pods-Squircle_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}

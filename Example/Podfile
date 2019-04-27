@@ -1,9 +1,0 @@
-use_frameworks!
-
-target 'Squircle_Example' do
-  pod 'Squircle', :path => '../'
-
-  target 'Squircle_Tests' do
-    inherit! :search_paths
-  end
-end

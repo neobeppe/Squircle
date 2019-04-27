@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Squircle  Reference</title>
+    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a title="Squircle  Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="index.html">Squircle Docs</a> (100% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="index.html">Squircle Reference</a>
+        <img id="carat" src="img/carat.png" />
+        Squircle  Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Extensions/CALayer.html">CALayer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions/UIView.html">UIView</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            
+            <h1 id='squircle' class='heading'>Squircle</h1>
+
+<p><a href="https://travis-ci.org/neobeppe/Squircle"><img src="https://travis-ci.org/neobeppe/Squircle.svg?branch=master" alt="Build Status"></a> <a href="http://cocoapods.org/pods/Squircle"><img src="https://img.shields.io/cocoapods/v/Squircle.svg?style=flat" alt="Version"></a> <a href="http://cocoapods.org/pods/Squircle"><img src="https://img.shields.io/cocoapods/l/Squircle.svg?style=flat" alt="License"></a> <a href="http://cocoapods.org/pods/Squircle"><img src="https://img.shields.io/cocoapods/p/Squircle.svg?style=flat" alt="Platform"></a> <a href="https://coveralls.io/github/neobeppe/Squircle?branch=master"><img src="https://coveralls.io/repos/github/neobeppe/Squircle/badge.svg?branch=swift4.2" alt="Coverage Status"></a></p>
+<h2 id='example' class='heading'>Example</h2>
+
+<p>To run the example project, clone the repo, and run <code>pod install</code> from the Example directory first.</p>
+<h2 id='installation' class='heading'>Installation</h2>
+
+<p>Squircle is available through <a href="http://cocoapods.org">CocoaPods</a>. To install</p>
+
+<p>it, simply add the following line to your Podfile:</p>
+<pre class="highlight ruby"><code>
+<span class="n">pod</span> <span class="s1">'Squircle'</span>
+
+</code></pre>
+<h2 id='usage' class='heading'>Usage</h2>
+<h3 id='squircle' class='heading'>Squircle</h3>
+
+<p>Squircle is an UIView extension, and can be used in different ways:</p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">view</span> <span class="o">=</span> <span class="kt">UIView</span><span class="p">()</span>
+<span class="n">view</span><span class="o">.</span><span class="nf">squircle</span><span class="p">()</span>
+</code></pre>
+
+<p>just apply conventional squircle radius to the view. If the view is a square, i&rsquo;ll obtain the same effect as iOS springboard icons, if it&rsquo;s a rectangle i&rsquo;ll obtain rounded corners based on a square built on smallest side.</p>
+
+<p>Squircle is also an CALayer extension, permitting you to add a squircle mask directly on a layer.
+Rules are the same as the UIView methods, invocation is:</p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">layer</span> <span class="o">=</span> <span class="kt">CALayer</span><span class="p">()</span>
+<span class="n">layer</span><span class="o">.</span><span class="nf">applySquircle</span><span class="p">()</span>
+</code></pre>
+<h3 id='squircle-with-border' class='heading'>Squircle with border</h3>
+
+<p>If you want to apply squircle with a border use the dedicated methods:</p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">view</span> <span class="o">=</span> <span class="kt">UIView</span><span class="p">()</span>
+<span class="n">view</span><span class="o">.</span><span class="nf">squircleWithBorder</span><span class="p">(</span><span class="nv">width</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">color</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">)</span>
+</code></pre>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">layer</span> <span class="o">=</span> <span class="kt">CALayer</span><span class="p">()</span>
+<span class="n">layer</span><span class="o">.</span><span class="nf">applySquircleWithBorder</span><span class="p">(</span><span class="nv">width</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">color</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">)</span>
+</code></pre>
+<h2 id='license' class='heading'>License</h2>
+
+<p>Squircle is available under the MIT license. See the LICENSE file for more info.</p>
+
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2019 <a class="link" href="https://github.com/neobeppe/Squircle" target="_blank" rel="external">Giuseppe Travasoni</a>. All rights reserved. (Last updated: 2019-04-27)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
