@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## Squircle
 
-Copyright (c) 2018 AlphaSheeps <giuseppe.travasoni@gmail.com>
+Copyright (c) 2018 Giuseppe Travasoni <giuseppe.travasoni@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

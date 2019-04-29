@@ -19,8 +19,8 @@ class ViewController: UIViewController {
         didSet {
             if self.showSquircles {
                 squircle1View.squircle()
-                squircle2View.squircleWithBorder()
-                squircle3View.squircleWithBorder()
+                squircle2View.squircleWithBorder(width: 5.0, color: .orange)
+                squircle3View.squircleWithBorder(width: 5.0, color: .orange)
             } else {
                 squircle1View.removeSquircle()
                 squircle2View.removeSquircle()
