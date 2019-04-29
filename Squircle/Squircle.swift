@@ -74,7 +74,7 @@ extension CALayer {
     }
     
     /**
-     Remove the squircle mask corner radius and border.
+     Remove the squircle corner radius and border.
      */
     public func removeSquircle() {
         removeSquircleBorder()
