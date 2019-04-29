@@ -23,7 +23,23 @@ extension UIView {
     public func squircleWithBorder(width: CGFloat = 1, color: UIColor = UIColor.init(white: 0.9, alpha: 1.0)) {
         self.layer.applySquircleWithBorder(width: width, color: color)
     }
+    
+    /**
+     Remove squircle corner radius and border.
+     */
+    public func removeSquircle() {
+        self.layer.removeSquircle()
+    }
+    
+    /**
+     Remove squircle border.
+     */
+    public func removeSquircleBorder() {
+        self.layer.removeSquircleBorder()
+    }
 }
+
+let squircleBorderName = "squircleBorder"
 
 extension CALayer {
     
@@ -42,6 +58,7 @@ extension CALayer {
     public func applySquircleWithBorder(width: CGFloat, color: UIColor) {
         applySquircle()
         let borderLayer = CAShapeLayer()
+        borderLayer.name = squircleBorderName
         borderLayer.path = squirclePath.cgPath
         borderLayer.lineWidth = width
         borderLayer.strokeColor = color.cgColor
@@ -49,4 +66,24 @@ extension CALayer {
         borderLayer.frame = self.bounds
         self.addSublayer(borderLayer)
     }
+    
+    /**
+     Remove the squircle mask corner radius and border.
+     */
+    public func removeSquircle() {
+        removeSquircleBorder()
+        self.mask?.removeFromSuperlayer()
+    }
+    
+    /**
+     Remove the squircle border.
+     */
+    public func removeSquircleBorder() {
+        self.sublayers?
+            .filter { layer in return layer.name == squircleBorderName }
+            .forEach { layer in
+                layer.removeFromSuperlayer()
+        }
+    }
+    
 }
