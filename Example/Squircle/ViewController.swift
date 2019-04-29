@@ -13,18 +13,37 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var squircle1View: UIView!
     @IBOutlet weak var squircle2View: UIView!
+    @IBOutlet weak var squircle3View: UIView!
+    
+    var showSquircles = true {
+        didSet {
+            if self.showSquircles {
+                squircle1View.squircle()
+                squircle2View.squircleWithBorder()
+                squircle3View.squircleWithBorder()
+            } else {
+                squircle1View.removeSquircle()
+                squircle2View.removeSquircle()
+                squircle3View.removeSquircleBorder()
+            }
+            
+        }
+    }
     
     override func viewDidLoad() {
         
         super.viewDidLoad()
-        squircle1View.squircle()
-        squircle2View.squircleWithBorder()
+        showSquircles = true
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    @IBAction func toggleSquircles() {
+        showSquircles = !showSquircles
+    }
+    
 }
 
