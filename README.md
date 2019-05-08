@@ -57,6 +57,42 @@ let layer = CALayer()
 layer.applySquircleWithBorder(width: CGFloat, color: UIColor)
 ```
 
+### Remove squircle
+
+To remove the squircle from a UIView:
+
+
+```swift
+view.removeSquircle()
+```
+
+or directly on CALayer:
+
+
+```swift
+layer.removeSquircle()
+```
+
+If a border has been added to the squircle, both functions above will remove it too.
+
+
+### Remove border
+
+To remove only the border from a squircle:
+
+
+```swift
+view.removeSquircleBorder()
+```
+
+or directly on CALayer:
+
+
+```swift
+layer.removeSquircleBorder()
+```
+
+
 ## License
 
 Squircle is available under the MIT license. See the LICENSE file for more info.
