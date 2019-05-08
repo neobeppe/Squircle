@@ -5,8 +5,16 @@ class BasicTests: XCTestCase {
     
     func testImplementation() {
         let view = UIView(frame: CGRect(x: 0, y: 0, width: 100, height: 100))
-        let path = view.layer.squirclePath
-        XCTAssertNotNil(path)
+        view.squircle()
+        
+        // Test that we have a squircle mask
+        var mask = view.layer.mask
+        XCTAssertNotNil(mask)
+        
+        // Test that we can remove the squircle
+        view.removeSquircle()
+        mask = view.layer.mask
+        XCTAssertNil(mask)
     }
     
     func testPoints() {
