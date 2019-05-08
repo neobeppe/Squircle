@@ -42,7 +42,7 @@ extension UIView {
     }
 }
 
-let squircleBorderName = "squircleBorder"
+internal let squircleBorderName = "squircleBorder"
 
 extension CALayer {
     
