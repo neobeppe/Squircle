@@ -21,35 +21,54 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lGl-LF-bp0">
-                                <rect key="frame" x="97.5" y="264.5" width="180" height="180"/>
-                                <color key="backgroundColor" red="0.99328044039999996" green="0.99328044039999996" blue="0.99328044039999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="lGl-LF-bp0" secondAttribute="height" id="1Rp-bM-FEw"/>
-                                    <constraint firstAttribute="width" constant="180" id="pNA-ht-RrM"/>
-                                </constraints>
-                            </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Ve-mD-hj6">
-                                <rect key="frame" x="97.5" y="42.5" width="180" height="180"/>
+                                <rect key="frame" x="97.5" y="23" width="180" height="180"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="7Ve-mD-hj6" secondAttribute="height" id="ROU-ku-aGr"/>
                                     <constraint firstAttribute="width" constant="180" id="gsE-6t-CYv"/>
                                 </constraints>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lGl-LF-bp0">
+                                <rect key="frame" x="97.5" y="218" width="180" height="180"/>
+                                <color key="backgroundColor" red="0.99328044039999996" green="0.99328044039999996" blue="0.99328044039999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="lGl-LF-bp0" secondAttribute="height" id="1Rp-bM-FEw"/>
+                                    <constraint firstAttribute="width" constant="180" id="pNA-ht-RrM"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="msB-9h-PaP">
+                                <rect key="frame" x="97.5" y="417" width="180" height="180"/>
+                                <color key="backgroundColor" red="0.95029137010097686" green="0.99328044039999996" blue="0.9299465075753629" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="180" id="1yx-Ov-zQh"/>
+                                    <constraint firstAttribute="width" secondItem="msB-9h-PaP" secondAttribute="height" id="bEb-Zu-MwM"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sba-Wo-IbC">
+                                <rect key="frame" x="131" y="617" width="113" height="30"/>
+                                <state key="normal" title="Toogle Squircles"/>
+                                <connections>
+                                    <action selector="toggleSquircles" destination="vXZ-lx-hvc" eventType="touchUpInside" id="WPo-xV-1FU"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="lGl-LF-bp0" secondAttribute="bottom" multiplier="3:2" id="8dN-zP-fzJ"/>
-                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="7Ve-mD-hj6" secondAttribute="bottom" multiplier="3:1" id="D1A-VX-JFH"/>
-                            <constraint firstItem="lGl-LF-bp0" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="Em5-m8-jAo"/>
+                            <constraint firstItem="Sba-Wo-IbC" firstAttribute="top" secondItem="7Ve-mD-hj6" secondAttribute="bottom" multiplier="3:1" constant="8" symbolic="YES" id="DBR-Ob-Py6"/>
+                            <constraint firstItem="Sba-Wo-IbC" firstAttribute="top" secondItem="lGl-LF-bp0" secondAttribute="bottom" multiplier="3:2" constant="20" id="Lp7-t1-CcO"/>
                             <constraint firstItem="7Ve-mD-hj6" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="ZL8-8x-3V6"/>
-                            <constraint firstItem="7Ve-mD-hj6" firstAttribute="width" secondItem="7Ve-mD-hj6" secondAttribute="height" id="mQw-rE-TcF"/>
+                            <constraint firstItem="msB-9h-PaP" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="bsP-Ug-PtU"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="Sba-Wo-IbC" secondAttribute="bottom" constant="20" id="gmY-nf-Sdx"/>
+                            <constraint firstItem="Sba-Wo-IbC" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="vcQ-58-9e7"/>
+                            <constraint firstItem="Sba-Wo-IbC" firstAttribute="top" secondItem="msB-9h-PaP" secondAttribute="bottom" multiplier="3:3" constant="20" id="x9m-Sa-oGo"/>
+                            <constraint firstItem="lGl-LF-bp0" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="xBN-8B-M7K"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="squircle1View" destination="7Ve-mD-hj6" id="jWc-uo-ql9"/>
                         <outlet property="squircle2View" destination="lGl-LF-bp0" id="1WN-QZ-p6v"/>
+                        <outlet property="squircle3View" destination="msB-9h-PaP" id="X4d-Jl-xFK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
