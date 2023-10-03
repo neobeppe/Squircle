@@ -8,18 +8,26 @@
     <script src="js/jquery.min.js" defer></script>
     <script src="js/jazzy.js" defer></script>
     
+    <script src="js/lunr.min.js" defer></script>
+    <script src="js/typeahead.jquery.js" defer></script>
+    <script src="js/jazzy.search.js" defer></script>
   </head>
   <body>
     <a title="Squircle  Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="index.html">Squircle Docs</a> (100% documented)</p>
+        <p><a href="index.html">Squircle 2.2.2 Docs</a> (100% documented)</p>
+        <div class="header-right">
+          <form role="search" action="search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </div>
       </div>
     </header>
     <div class="content-wrapper">
       <p id="breadcrumbs">
         <a href="index.html">Squircle Reference</a>
-        <img id="carat" src="img/carat.png" />
+        <img id="carat" src="img/carat.png" alt=""/>
         Squircle  Reference
       </p>
     </div>
@@ -45,7 +53,7 @@
             
             <h1 id='squircle' class='heading'>Squircle</h1>
 
-<p><a href="https://travis-ci.org/neobeppe/Squircle"><img src="https://travis-ci.org/neobeppe/Squircle.svg?branch=master" alt="Build Status"></a> <a href="http://cocoapods.org/pods/Squircle"><img src="https://img.shields.io/cocoapods/v/Squircle.svg?style=flat" alt="Version"></a> <a href="http://cocoapods.org/pods/Squircle"><img src="https://img.shields.io/cocoapods/l/Squircle.svg?style=flat" alt="License"></a> <a href="http://cocoapods.org/pods/Squircle"><img src="https://img.shields.io/cocoapods/p/Squircle.svg?style=flat" alt="Platform"></a> <a href="https://coveralls.io/github/neobeppe/Squircle?branch=master"><img src="https://coveralls.io/repos/github/neobeppe/Squircle/badge.svg?branch=swift4.2" alt="Coverage Status"></a></p>
+<p><a href="https://travis-ci.org/neobeppe/Squircle"><img src="https://travis-ci.org/neobeppe/Squircle.svg?branch=master" alt="Build Status"></a> <a href="http://cocoapods.org/pods/Squircle"><img src="https://img.shields.io/cocoapods/v/Squircle.svg?style=flat" alt="Version"></a> <a href="http://cocoapods.org/pods/Squircle"><img src="https://img.shields.io/cocoapods/l/Squircle.svg?style=flat" alt="License"></a> <a href="http://cocoapods.org/pods/Squircle"><img src="https://img.shields.io/cocoapods/p/Squircle.svg?style=flat" alt="Platform"></a> <a href="https://coveralls.io/github/neobeppe/Squircle?branch=master"><img src="https://coveralls.io/repos/github/neobeppe/Squircle/badge.svg" alt="Coverage Status"></a> <a href="https://swiftpackageindex.com/neobeppe/Squircle"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fneobeppe%2FSquircle%2Fbadge%3Ftype%3Dswift-versions" alt=""></a> <a href="https://swiftpackageindex.com/neobeppe/Squircle"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fneobeppe%2FSquircle%2Fbadge%3Ftype%3Dplatforms" alt=""></a> <a href="https://neobeppe.github.io/Squircle/"><img src="https://neobeppe.github.io/Squircle/badge.svg" alt=""></a></p>
 <h2 id='example' class='heading'>Example</h2>
 
 <p>To run the example project, clone the repo, and run <code>pod install</code> from the Example directory first.</p>
@@ -59,6 +67,7 @@
 
 </code></pre>
 <h2 id='usage' class='heading'>Usage</h2>
+<h3 id='squircle' class='heading'>Squircle</h3>
 
 <p>Squircle is an UIView extension, and can be used in different ways:</p>
 <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">view</span> <span class="o">=</span> <span class="kt">UIView</span><span class="p">()</span>
@@ -72,6 +81,35 @@ Rules are the same as the UIView methods, invocation is:</p>
 <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">layer</span> <span class="o">=</span> <span class="kt">CALayer</span><span class="p">()</span>
 <span class="n">layer</span><span class="o">.</span><span class="nf">applySquircle</span><span class="p">()</span>
 </code></pre>
+<h3 id='squircle-with-border' class='heading'>Squircle with border</h3>
+
+<p>If you want to apply squircle with a border use the dedicated methods:</p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">view</span> <span class="o">=</span> <span class="kt">UIView</span><span class="p">()</span>
+<span class="n">view</span><span class="o">.</span><span class="nf">squircleWithBorder</span><span class="p">(</span><span class="nv">width</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">color</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">)</span>
+</code></pre>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">layer</span> <span class="o">=</span> <span class="kt">CALayer</span><span class="p">()</span>
+<span class="n">layer</span><span class="o">.</span><span class="nf">applySquircleWithBorder</span><span class="p">(</span><span class="nv">width</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">color</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">)</span>
+</code></pre>
+<h3 id='remove-squircle' class='heading'>Remove squircle</h3>
+
+<p>To remove the squircle from a UIView:</p>
+<pre class="highlight swift"><code><span class="n">view</span><span class="o">.</span><span class="nf">removeSquircle</span><span class="p">()</span>
+</code></pre>
+
+<p>or directly on CALayer:</p>
+<pre class="highlight swift"><code><span class="n">layer</span><span class="o">.</span><span class="nf">removeSquircle</span><span class="p">()</span>
+</code></pre>
+
+<p>If a border has been added to the squircle, both functions above will remove it too.</p>
+<h3 id='remove-border' class='heading'>Remove border</h3>
+
+<p>To remove only the border from a squircle:</p>
+<pre class="highlight swift"><code><span class="n">view</span><span class="o">.</span><span class="nf">removeSquircleBorder</span><span class="p">()</span>
+</code></pre>
+
+<p>or directly on CALayer:</p>
+<pre class="highlight swift"><code><span class="n">layer</span><span class="o">.</span><span class="nf">removeSquircleBorder</span><span class="p">()</span>
+</code></pre>
 <h2 id='license' class='heading'>License</h2>
 
 <p>Squircle is available under the MIT license. See the LICENSE file for more info.</p>
@@ -79,11 +117,10 @@ Rules are the same as the UIView methods, invocation is:</p>
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2019 <a class="link" href="https://github.com/neobeppe/Squircle" target="_blank" rel="external">Giuseppe Travasoni</a>. All rights reserved. (Last updated: 2019-04-27)</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+          <p>&copy; 2023 <a class="link" href="https://github.com/neobeppe/Squircle" target="_blank" rel="external noopener">Giuseppe Travasoni</a>. All rights reserved. (Last updated: 2023-10-03)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
         </section>
       </article>
     </div>
   </body>
-</div>
 </html>
