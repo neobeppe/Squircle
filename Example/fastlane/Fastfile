@@ -44,7 +44,7 @@ platform :ios do
     )
     scan(
       scheme: "Squircle-Example",
-      device: "iPhone XS"
+      device: "iPhone 13"
     )
   end
 

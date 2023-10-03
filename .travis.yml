@@ -1,5 +1,5 @@
-language: objective-c
-osx_image: xcode11.6
+os: osx
+osx_image: xcode14.2
 before_install:
 - gem update fastlane --no-document
 - gem update cocoapods --no-document
