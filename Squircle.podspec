@@ -13,7 +13,7 @@ Lightweight library to apply a squircle rounded corner to any UIView or CALayer.
   s.author           = { 'Giuseppe Travasoni' => 'giuseppe.travasoni@gmail.com' }
   s.source           = { :git => 'https://github.com/neobeppe/Squircle.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '12.0'
   s.source_files = 'Squircle/**/*'
   s.frameworks = 'UIKit', 'QuartzCore', 'CoreGraphics'
   
