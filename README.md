@@ -10,9 +10,13 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-Squircle is available through [CocoaPods](http://cocoapods.org). To install
+### Swift Package Manager
 
-it, simply add the following line to your Podfile:
+Squircle is available through SPM. To install it, simply add the URL in Xcode: `https://github.com/neobeppe/Squircle`
+
+### Cocoapods
+
+Squircle is available through [CocoaPods](http://cocoapods.org). To install it, simply add the following line to your Podfile:
 
 ```ruby
 
@@ -26,13 +30,12 @@ pod 'Squircle'
 
 Squircle is an UIView extension, and can be used in different ways:
 
-
 ```swift
 let view = UIView()
 view.squircle()
 ```
 
-just apply conventional squircle radius to the view. If the view is a square, i'll obtain the same effect as iOS springboard icons, if it's a rectangle i'll obtain rounded corners based on a square built on smallest side.
+Just apply conventional squircle radius to the view. If the view is a square, i'll obtain the same effect as iOS springboard icons, if it's a rectangle i'll obtain rounded corners based on a square built on smallest side.
 
 Squircle is also an CALayer extension, permitting you to add a squircle mask directly on a layer.
 Rules are the same as the UIView methods, invocation is:
